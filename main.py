@@ -7,3 +7,5 @@ def min_of_three_vars(a, b, c):
         return c
 
     
+if name == '__main__':
+    min_of_three_vars(1, 2, 3)
