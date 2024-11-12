@@ -6,6 +6,9 @@ def min_of_three_vars(a, b, c):
     elif c < a and c < b:
         return c
 
-    
-if name == '__main__':
+
+def main():
     min_of_three_vars(1, 2, 3)
+
+if name == '__main__':
+    main()
