@@ -10,5 +10,5 @@ def min_of_three_vars(a, b, c):
 def main():
     min_of_three_vars(1, 2, 3)
 
-if name == '__main__':
+if __name__ == '__main__':
     main()
