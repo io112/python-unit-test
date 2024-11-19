@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage("deps") {
             steps {
-                sh 'ping pypi.org'
+                sh 'ping -c 4 pypi.org'
                 sh 'pip install -r requirements.txt'
             }
         }
