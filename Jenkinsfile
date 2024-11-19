@@ -24,4 +24,9 @@ pipeline {
             }
         }
     }
+    post {
+        success {
+            archiveAcrtifacts 'htmlcov/*'
+        }
+    }
 }
