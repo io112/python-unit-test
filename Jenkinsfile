@@ -27,7 +27,7 @@ pipeline {
     }
     post {
         success {
-            archiveAcrtifacts 'htmlcov/*'
+            archiveArtifacts 'htmlcov/*'
             recordCoverage(tools: [[parser: 'COBERTURA']],
             id: 'cobertura', name: 'Cobertura Coverage',
             sourceCodeRetention: 'EVERY_BUILD')
